@@ -12,6 +12,7 @@ class Example {
   handleClick() {
     this.el.children[0].innerText = "Ouch!"
   }
+  
 
   getData() {
     const CoinGeckoClient = new CoinGecko();
